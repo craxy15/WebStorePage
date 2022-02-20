@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    
+}
+
+
+header{
+    grid-column: 1/ 4;
+    height: 60px;
+    background-color:#c43131;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 100px;
+    
+}
+header a{
+    color: white;
+}
+.nav-bar{
+    grid-column: 1/ span 3;
+    height: 40px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    font-size: 18px;
+    margin-right: 100px;
+}
+.nav-1{
+    display: flex;
+    list-style: none;
+    justify-content: start;
+    align-items: center;
+}
+.nav-1 li{
+    margin-left: 30px;
+    margin-right:30px ;
+}
+.nav-1 li:hover{
+    color: #c43131;
+}
+
+.nav-2{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    align-items: center;
+}
+.nav-2 li{
+    margin-left: 10px;
+    margin-right:10px ;
+}
+.nav-2 li:hover{
+    color: #c43131;
+}
+
+/* parte 1 */
+
+
+main{
+    display: grid;
+    grid-column: 1/ span 3;
+    height:800px ;
+    background-image:url(https://img.freepik.com/vector-gratis/fondo-floral-acuarela-pintada-mano_79603-1868.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-right: 100px;
+}
+.tittle , .subtitle{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.tittle{
+    font-size: 80px;
+}
+.subtitle{
+    align-self: start;
+    font-size: 25px;
+    margin-top: -150px;
+}
+
+.text{
+    display: grid;
+    grid-column: 1/span 3;
+    background-color: white;
+    height: 100px;
+    font-size: 30px;
+    margin-right: 100px;
+}
+.text h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c74d4d;
+    font-size: 60px;
+}
+.text p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productos{
+    display: grid;
+    grid-column: 1/span 3;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+
+.imagini{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.product-1{
+    display: grid;
+    grid-column: 1/2;
+    height: 660px;
+    background-color: rgb(244,225,215);
+}
+.product-1 p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.product-1 p:hover{
+    color: #c43131;
+}
+.product-2{
+    display:grid;
+    grid-column: 2/3;
+    height: 660px;
+    background-color: rgb(244,225,215);
+}
+.product-2 p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.product-2 p:hover{
+    color: #c43131;
+}
+.product-3{
+    display: grid;
+    grid-column: 3/4;
+    height: 660px;
+    background-color: rgb(244,225,215);
+}
+.product-3 p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.product-3 p:hover{
+    color: #c43131;
+}
+.buton{
+    display: grid;
+    grid-column: 1/span 3;
+    height: 120px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 100px;
+
+}
+.buton-1{
+    display: flex;
+    width: 150px;
+    height: 60px;
+    border: 2px solid #c74d4d;
+    justify-content: center;
+    font-size: 20px;
+    color: #c74d4d;
+}
+.buton-1:hover{
+    color: black;
+}
+
+.tittle-2{
+    display: grid;
+    grid-column: 1/span 3;
+    background-image: url(https://www.todofondos.net/wp-content/uploads/fondos-de-flores-vintage-weneedfun.-imagen-de-flores-vintage.jpg);
+    background-size: cover;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 100px;
+}
+.tittle-2 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+   
+    
+
+}
+.tittle-2 p{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 400px;
+    font-size: 23px;
+    
+}
+
+.buton-2{
+    display: flex;
+    width: 450px;
+    height: 120px;
+    border-radius: 40%;
+    justify-content: center;
+    font-size: 30px;
+    background: rgb(250,250,240);
+    background: linear-gradient(180deg, rgba(250,250,240,1) 0%, rgba(189,168,165,1) 33%, rgba(184,138,138,1) 55%);
+    color:#c43131;
+}
+.buton-2:hover{
+    color: black;
+}
+.tittle-2 input{
+    display: flex;
+    margin-left: 35%;
+    margin-bottom: 90px;
+
+}
+
+.tittle-3{
+    display: grid;
+    grid-column: 1/ span 3;
+    height: 120px;
+    margin-right: 100px;
+}
+.tittle-3 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #c43131;
+}
+
+
+/* parte 2 */
+
+
+.shop{
+    display:flex;
+    margin-left: -100px;  
+}
+.imagini-2{
+    width: 475px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+
+
+
+
+footer{
+    display: grid;
+    grid-column: 1/span 3;
+    font-size: 20px;
+    margin-left: -100px;
+    height: 350px;
+    justify-content: space-evenly;
+    background: rgb(244,225,215);
+    padding-top: 100px;
+    
+    
+}
+
+.footer-1{
+    display: grid;
+    grid-column: 1/2;
+    border: 3px solid white;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    padding-top: 25px;
+    background-color: white;
+    color: #c43131;
+    border-radius: 10%;
+    
+}
+.footer-1 p{
+    font-size: 25px;
+}
+.footer-1 ul li{
+    list-style: none;
+    font-size: 20px;
+}
+.footer-1 ul li:hover{
+    color: black;
+}
+
+.footer-2{
+    display: grid;
+    grid-column: 2/3;
+    border: 3px solid white;
+    width: 400px;
+    height: 227px;
+    justify-content: center;
+    background-color: white;
+    color: #c43131;
+    border-radius: 10%;
+}
+.footer-2 p{
+    padding-top: 25px;
+    font-size: 25px;
+}
+.footer-2 ul li{
+    list-style: none;
+    font-size: 20px;
+}
+.footer-2 ul li:hover{
+    color:black
+}
+.footer-3{
+    display: grid;
+    grid-column: 3/4;
+    border: 3px solid white;
+    width: 400px;
+    height: 228px;
+    justify-content: center;
+    background-color: white;
+    color: #c43131;
+    border-radius: 10%;
+}
+.footer-3 p{
+    padding-top: 25px;
+    font-size: 25px;
+}
+.footer-3 ul li{
+    list-style: none;
+    font-size: 20px;
+}
+.footer-4{
+    display: grid;
+    grid-column: 1/span 3;
+    justify-self: center;
+    margin-top: 40px;
+    margin-left: -90px;
+}
+
+
+
+
+
+
+
+body{
+    padding-left: 100px;
+    padding-right: 100px !important;
+    font-family: 'Prata', serif;
+}
+
